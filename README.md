@@ -16,6 +16,8 @@ As a basic website, the site utilizes the common web development stack of html, 
 `script.js` is the logic of the website's pages, mainly concerned with altering the view on the navigation bar located at the top of the website, responding by altering the view of the navigation bar depending on the user's screen size.
 
 # How To Use
+The site is hosted through Github at: <a href="dashadriano.github.io">dashadriano.github.io</a>
+
 The website is designed with a user-friendly interface that presents information clearly through the clean UI.
 
 At start-up, the website already offers options to navigate the site's various sections. 
