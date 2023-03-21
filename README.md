@@ -6,7 +6,7 @@ maintainweight is a website built to inform visitors regarding weight maintenanc
 
 The information given on the website aims to help people struggling with weight maintenance through studies and advice from experts.
 
-The website was built as a project for SJC-1BSIT-A's ITE 291 class.
+The website was built as a project for SJC-1BSIT-A's ITE 291 class. Mostly influenced by the guidance of DesignCourse's videos on YouTube.
 
 # How It Works
 As a basic website, the site utilizes the common web development stack of html, css, and js; with the help of scss as well.
