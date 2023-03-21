@@ -20,7 +20,7 @@ As a basic website, the site utilizes the common web development stack of html, 
 SVGs used in the project, located in the `imgs` folder, were taken from online sources. Images of the researchers were put to credit their words, along with their names and a link to their papers. In the event of a misidentification, please email to notify the developer. 
 
 # How To Use
-The website is designed with a user-friendly interface that presents information clearly through the clean UI.
+The website is designed with a user-friendly interface that presents information clearly through the clean UI. It dynamically resizes, maintaining the user-friendly UI regardless of window size.
 
 At start-up, the website already offers options to navigate the site's various sections. 
 
