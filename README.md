@@ -11,7 +11,7 @@ The website was built as a project for SJC-1BSIT-A's ITE 291 class.
 # How It Works
 As a basic website, the site utilizes the common web development stack of html, css, and js; with the help of scss as well.
 
-`index.html` stands as the landing page of the website, leading to other html files that the various links in the site may lead to depending on their respective labels. The names of the authors of reviewed related literature, when clicked, lead to the pages of their respective papers from which the quotes were taken from in the `sources` section.
+`index.html` stands as the landing page of the website, leading to other html files that the various links in the site may lead to depending on their respective labels. The names of the authors of reviewed related literature, when clicked, lead to the pages of their respective papers from which the quotes in the `sources` section were taken from.
 
 `style.scss` serves as the main editing file for styling for the ease of styling it provides with its nesting and other features. Live Sass Compiler is then used to simplify the code to css, which is then connected to the html files.
 
