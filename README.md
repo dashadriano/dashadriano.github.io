@@ -1,7 +1,7 @@
 # maintainweight
 maintainweight. Built with html, css, scss, and js. Compatible on desktop and mobile browsers.
 
-Site active at: `dashadriano.github.io`
+View website through link under project description on right-hand side of the repository's UI.
 <br />
 # Abstract
 maintainweight is a website built to inform visitors regarding weight maintenance, even after weight loss.
@@ -22,12 +22,8 @@ The website is designed with a user-friendly interface that presents information
 
 At start-up, the website already offers options to navigate the site's various sections. 
 
-Unfortunately, due to time constraints, the contact form is merely for show as to what the website could be and requires further coding. The website was coded to help people, and as such any feedback would be accepted and considered through the contact section of the site when it is operational.
+Unfortunately, due to time constraints, the contact form is merely to show what the website could be, as it requires further operational coding that would allow actual feedbacks to be sent through the form. The website was coded to help people, and as such any feedback would have been accepted and considered through the contact section of the site if it went operational.
 
-# Developers 
+# Developer
 David Joshua Adriano<br />
 `adriano.davidjoshua@gmail.com`
-
-# Documentation
-Project's Paper:<br /> 
-Ongoing
