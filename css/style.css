@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --main-color: rgb(71, 148, 247);
+  --bg-color: rgb(245, 245, 245);
+  --off-main-color: rgb(98, 163, 247);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg-color);
+  margin: 0;
+  font-family: Poppins;
+}
+body span {
+  color: var(--main-color);
+}
+body .to-top-cta {
+  margin-top: 7.5em;
+  right: 0;
+  z-index: 998;
+  position: fixed;
+  background: white;
+  padding: 1em;
+  border-radius: 1.5em;
+}
+body footer {
+  background: white;
+  padding: 1em;
+  text-align: center;
+  color: black;
+}
+body footer a:hover {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-bar {
+  background: white;
+  padding: 1em;
+}
+.nav-bar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+.nav-bar nav {
+  display: none;
+}
+.nav-bar .container {
+  display: flex;
+  place-content: space-between;
+}
+.nav-bar .mobile-menu {
+  cursor: pointer;
+  width: auto;
+  height: 50px;
+}
+
+a {
+  color: rgb(49, 45, 45);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 3em 3em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-left .subheader {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: gray;
+  letter-spacing: 0.4em;
+}
+.hero-left h1 {
+  font-size: 2.5em;
+  line-height: 1.4em;
+  margin-top: 0.3em;
+}
+.hero-left .read-more-cta {
+  background: var(--main-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1.2em;
+  font-size: 1.2em;
+  border-radius: 10em;
+  font-weight: bold;
+}
+.hero-left .read-more-cta:hover {
+  background-color: var(--off-main-color);
+}
+.hero-left .go-to-github-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+.hero-left .go-to-github-cta img {
+  margin-right: 0.5em;
+}
+.hero-left .go-to-github-cta:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+.hero-img {
+  width: 55%;
+  margin-top: 3em;
+}
+
+.main-text-section {
+  background: var(--bg-color);
+  margin-bottom: -2em;
+}
+.main-text-section .main-text-title {
+  padding-bottom: 1.2em;
+  font-size: 2em;
+}
+.main-text-section p {
+  text-align: justify;
+}
+.main-text-section p a {
+  text-decoration: underline;
+}
+.main-text-section p a:hover {
+  color: var(--off-main-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projects-section {
+  background: var(--bg-color);
+  margin-top: -2em;
+}
+.projects-section li {
+  background: var(--main-color);
+  text-align: center;
+  padding: 2em 1em;
+  width: 80%;
+  margin: 0 auto 4em;
+  border-radius: 1em;
+  color: white;
+}
+.projects-section li a {
+  font-weight: bold;
+  color: white;
+}
+.projects-section li a:hover {
+  font-weight: bold;
+  color: #BEEAFD;
+}
+.projects-section li blockquote {
+  margin-top: 2em;
+  color: var(--bg-color);
+}
+.projects-section li img {
+  width: 5em;
+  height: 5em;
+}
+.projects-section li cite {
+  font-style: normal;
+}
+.projects-section .index-end-remarks {
+  font-weight: bold;
+  padding-top: 5em;
+  margin-left: 8.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid gray;
+  border-radius: 0.3em;
+  box-sizing: border-box;
+}
+
+.send-msg-cta {
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: 0.8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.contact-end-remarks {
+  margin-bottom: 5em;
+}
+
+.github-cta {
+  color: rgb(49, 45, 45);
+  border-radius: 5em;
+  text-decoration: underline;
+}
+.github-cta:hover {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav.expand-menu {
+  display: block;
+  z-index: 999;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: rgb(49, 45, 45);
+  height: 100vh;
+  padding: 1em;
+}
+nav ul.main-nav {
+  margin-top: 5em;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+nav li a:hover {
+  font-weight: bold;
+}
+
+.mobile-menu-exit {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-bar .logo {
+    font-size: 1.5em;
+    margin-top: 0.3em;
+  }
+}
+@media only screen and (min-width: 436px) {
+  .hero .hero-img {
+    width: 187px;
+    padding-bottom: 3em;
+  }
+  iframe {
+    border-radius: 2em;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+  .nav-bar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
+  }
+  .nav-bar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .nav-bar nav ul {
+    display: flex;
+  }
+  .nav-bar nav a {
+    color: black;
+    font-size: 1em;
+    padding: 0.1em 1em;
+  }
+  .nav-bar nav ul.main-nav {
+    margin: 0;
+  }
+  .nav-bar nav li.current a {
+    font-weight: bold;
+  }
+  .nav-bar nav li.nav-github-cta a {
+    color: var(--main-color);
+    border: 3px solid var(--main-color);
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -0.2em;
+  }
+  .nav-bar nav li.nav-github-cta a:hover {
+    background: var(--main-color);
+    color: white;
+  }
+  .hero .hero-img {
+    width: 204.25px;
+    padding-top: 1em;
+    padding-bottom: 3em;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .container {
+    width: 1080px;
+    margin: 0 auto;
+  }
+  .nav-github-cta {
+    margin-right: 1.8em;
+  }
+  section {
+    padding: 10em 4em;
+  }
+  .hero {
+    margin-bottom: 4.5em;
+  }
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .hero .container .hero-left {
+    margin: 3em 3em 0 5em;
+  }
+  .hero .container .hero-left h1 {
+    font-size: 3em;
+    width: 90%;
+  }
+  .hero-img {
+    width: 30%;
+    margin-right: 8em;
+  }
+  .hero-cta {
+    display: flex;
+    align-items: center;
+  }
+  .read-more-cta {
+    margin-right: 1em;
+  }
+  .go-to-github-cta {
+    padding-bottom: 1.6em;
+  }
+  .projects-section ul {
+    display: flex;
+    margin-right: 5em;
+  }
+  .projects-section ul li {
+    margin: 0 1em;
+  }
+  .contact-section {
+    position: relative;
+  }
+  .contact-section .container {
+    display: flex;
+  }
+  .contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+  }
+  .contact-right iframe {
+    height: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
