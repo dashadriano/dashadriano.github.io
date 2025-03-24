@@ -36,7 +36,7 @@ Additionally, the `script.js` file contained:
   window.addEventListener('resize', updateScreenSize);
 ```
 
-After configuration, the segment was removed and now, only the `arrow-up.svg` remains inside the `to-top-cta` div.
+After configuration, the segments were removed.
 
 # Description
 The website is designed with a user-friendly interface that presents information clearly through the clean UI. It dynamically resizes, maintaining a user-friendly UI regardless of window size.
