@@ -39,8 +39,8 @@ Additionally, the `script.js` file contained:
 After configuration, the segments were removed.
 
 # Description
-The website is designed with a user-friendly interface that presents information clearly through the clean UI. It dynamically resizes, maintaining a user-friendly UI regardless of window size.
+The website is designed with a user-friendly interface that presents information clearly through the clean UI. It dynamically resizes, maintaining a user-friendly UI regardless of window size. The logo works as a scroll-back-to-top button, and when on the contact page, it works the same as the 'home' nav link as well.
 
-The website offers options to navigate the site's various sections through the navigation menu, and for smaller devices such as mobile phones, the navigation bar folds up neatly into a side menu, accessible through the hamburger menu icon on smaller screens.
+The website offers options to navigate the site's various sections through the navigation menu, and for smaller devices such as mobile phones, the navigation bar folds up neatly into a drawer-type side menu, accessible through the hamburger menu icon on smaller screens.
 
-Unfortunately, the contact form is not operational, as that would require a different site host since GitHub only hosts static sites. Looking into different hosting options. In the meantime, feel free to contact me via LinkedIn which is linked on my GitHub profile as well as on the site. 
+Unfortunately, the contact form is not operational, as that would require a different site host since GitHub only hosts static sites. Feel free to connect via LinkedIn which is linked on my GitHub profile as well as on the site. 
